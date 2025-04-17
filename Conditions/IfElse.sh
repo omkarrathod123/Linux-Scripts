@@ -1,8 +1,10 @@
 #!/bin/bash
 #If Else condtion in shell script
 
-a=$1
-b=$2
+echo "Enter A:"
+read a
+echo "Enter B:"
+read b
 
 echo "A is $a , B is $b."
 if [ $a -gt $b ]
