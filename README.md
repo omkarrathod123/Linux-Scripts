@@ -4,10 +4,10 @@ Data in this repo is useful for understand what Sheel Scripting is.
 
 ## ------------------Shell Script Structure--------------
 ```
-< Interpriter > #!/bin/bash
-< Comment for understanding for team members >
-< Logic >
-< End Statement >
+#!/bin/bash     < Interpriter >
+#test comment   < Comment for understanding for team members >
+a=$1            < Logic >
+echo "A is $a"  < End Statement >
 ```
 
 ## ------------------Repo Content--------------

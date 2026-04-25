@@ -4,6 +4,10 @@
 #------------- Take two variables-------------
 a=$1
 b=$2
+
+ehco "Number A: $a"
+echo "Number B: $b"
+
 c=`expr $a + $b`
 echo "Addition is $c"
 
