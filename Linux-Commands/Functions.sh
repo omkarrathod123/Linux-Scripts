@@ -11,5 +11,9 @@ Func1(){
 }
 Func2(){
     echo "This statement is in Function 2"
-    Func
+    Func1
 }
+
+<<'COMMENT'
+
+'()' is used for defining fuctions in any programing lungrages. In linux we call function by writing the name of function with out '()'.
