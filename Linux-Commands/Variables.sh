@@ -14,3 +14,8 @@ echo "location of home is $HOME"
 a=$1
 echo "A is $a"
 addval
+
+#-------------------Spacial Variable-----------------
+echo "Script name is $0"
+echo "All Command is $@"
+echo "Exit status is $?"
