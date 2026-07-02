@@ -1,5 +1,6 @@
 #!bin/bash
 #Function in Shellscripts
+# '()' is used for defining fuctions in any programing lungrages. In linux we call function by writing the name of function with out '()'.
 
 statement(){
     echo "This Echo is proof of this Function"
@@ -13,7 +14,3 @@ Func2(){
     echo "This statement is in Function 2"
     Func1
 }
-
-<<'COMMENT'
-
-'()' is used for defining fuctions in any programing lungrages. In linux we call function by writing the name of function with out '()'.
